@@ -12,6 +12,7 @@ class User{
 
 $user = new User("john pinto");
 echo $user->getname();
+exit();
 
 ?>
 
