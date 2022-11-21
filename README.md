@@ -1,6 +1,6 @@
 # Object Oriented Programming in PHP
 
-### book : https://leanpub.com/the-essentials-of-object-oriented-php
+### Book : https://leanpub.com/the-essentials-of-object-oriented-php
 
 ## $this keyword
   The $this keyword indicates that we use the class’s own methods and properties, and
