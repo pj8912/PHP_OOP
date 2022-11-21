@@ -37,9 +37,10 @@ class AuthorEditor extends User implements Author, Editor{
 $user1 = new AuthorEditor;
 $user1->setname("john");
 $username  = $user1->getname();
-$sets = ['as','as'];
-$user1->setAuthor($sets);
-$user1->setEditor($sets);
+$author_privs = ['write text','add punctuation'];
+$editor_privs = ['edit text', 'edit punctuation'];
+$user1->setAuthor($author_privs);
+$user1->setEditor($editor_privs);
 $p = array_merge($user1->getAuthor(), $user1->getEditor());
 
 
